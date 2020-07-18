@@ -37,6 +37,13 @@
     font-weight: 700;
     text-decoration: none;
 
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-left: .5rem;
+    }
     &:after {
         content: "";
         width: 0;
@@ -78,6 +85,14 @@
             background-color: @black;
             color: @white;
         }
+    }
+    &--language {
+      font-size: .7rem;
+      &.lang {
+        &:after {
+          width: 100%;
+      }
+      }
     }
 
     @media @mobile {

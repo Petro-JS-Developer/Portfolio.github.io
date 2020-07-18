@@ -1,6 +1,4 @@
 $(function () {
-  // New code
-  
     const section = $('.pos'),
           header = $("#header"),
           introH = $("#intro").innerHeight(),
@@ -36,11 +34,11 @@ $(function () {
   
     $("[data-scroll]").on("click", function (event) {
       event.preventDefault();
-      
+
       let $this = $(this),
         blockId = $this.data("scroll"),
         blockOffset = $(blockId).offset().top;
-  
+
         $("#nav a").removeClass("active");
         $this.addClass("active");
   
@@ -50,14 +48,7 @@ $(function () {
       scrollTop: blockOffset - 100
       }, 600);
       });
-    /* /.New code */
-  
-  
-  
-  
-  
-  
-  
+
   
     const workSlider = $('[data-slider="slick"]');
   
@@ -211,5 +202,11 @@ $(function () {
       $('body').html(body);
     }
     
+    /* Language */
+    $("[data-click]").on("click", function () {
+      let $this = $(this)
+        $("#nav a").removeClass("lang");
+        $this.addClass("lang");
+      });
   });
   
