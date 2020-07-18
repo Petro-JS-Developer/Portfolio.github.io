@@ -201,5 +201,15 @@ $(function () {
       http.send(new FormData(f));
     }, false);
   
+
+    /* Send message */
+    function printEl() {
+      var body = $('body').html(),
+        el = $('.print');
+      $('body').html(el);
+      window.print()
+      $('body').html(body);
+    }
+    
   });
   
