@@ -1,0 +1,100 @@
+
+.modal__work {
+  display: flex;
+  flex-wrap: wrap;
+}
+.modal__work-previews {
+  width: 65%;
+  position: relative;
+  overflow: hidden;
+  @media @tablet {
+    width: 100%;
+  }
+}
+
+.modal__work__photo {
+  // margin: 0 auto;
+
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-height: 900px;
+  max-width: 1320px;
+}
+
+.modal__work-content {
+  width: 35%;
+  padding: 3.4rem 2.6rem 1rem 1.73rem;
+
+  position: relative;
+  @media @tablet {
+    width: 100%;
+    padding-top: 6rem;
+  }
+
+  @media @mobile-sm {
+    width: 100%;
+    padding: 6rem 1rem 0;
+  }
+
+}
+
+.modal__work__header {
+  margin-bottom: 2.2rem;
+  @media @mobile-sm {
+    margin-bottom: 1.5rem;
+  }
+}
+.modal__work__title {
+  margin-bottom: 0.2rem;
+  font-size: 2.12rem;
+  font-weight: 700;
+  color: @black;
+  text-transform: uppercase;
+  @media @mobile {
+    font-size: 1.5rem;
+  }
+}
+
+.modal__work__info {
+  font-size: 1.2rem;
+  color: @gray;
+  text-transform: uppercase;
+}
+
+.modal__work__info__divider {
+  margin: 0 1rem;
+}
+
+.modal__work__client {
+margin-bottom: 2.2rem;
+
+@media @mobile-sm {
+  margin-bottom: 1.2rem;
+}
+}
+
+.modal__work__client__title {
+  margin-bottom: 0.2rem;
+  font-weight: 700;
+  font-size: 16px;
+  color: @black;
+}
+
+.modal__work__client__company {
+  font-style: italic;
+  font-size: 0.94rem;
+  color: @gray;
+}
+
+.modal__work__text {
+  margin-bottom: 2.66rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: @gray;
+  @media @tablet {
+    margin-bottom: 2.66rem;
+}
+
+}
