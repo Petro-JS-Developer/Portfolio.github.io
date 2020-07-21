@@ -643,9 +643,9 @@ p {
 }
 .about__text {
   margin-bottom: 2.8rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #6A696B;
-  line-height: 2;
+  line-height: 1.5;
   font-weight: 300;
 }
 /* Reviews */
