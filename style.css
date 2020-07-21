@@ -580,6 +580,7 @@ p {
 @media (max-width: 991px) {
   .about__photo {
     order: 2;
+    margin-top: 2rem;
   }
   .about__photo:before {
     width: 100%;
@@ -709,7 +710,7 @@ p {
 }
 @media (max-width: 991px) {
   .news {
-    margin-top: 12rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
   }
 }
