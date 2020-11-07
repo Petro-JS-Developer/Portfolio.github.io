@@ -23,7 +23,7 @@
             <div class="user__name">
               Petro<br>Mandzyuk
             </div>
-            <div class="user__prof">JS Developer</div>
+            <div class="user__prof">Front-End Developer</div>
           </div>
         </div>
         <nav class="nav" id="nav">
@@ -31,7 +31,7 @@
           <a class="nav__link" href="#" data-scroll="#about">ABOUT ME</a>
           <a class="nav__link" href="#" data-scroll="#blog">BLOG</a>
           <a class="nav__link" href="#" data-scroll="#contact">CONTACT</a>
-          
+
           <a class="nav__link nav__link--btn" href="#" data-modal="#modal__here__me">HIRE ME</a>
 
           <a class="nav__link nav__link--language" href="index.html" data-click="#UKR">ukr</a>
@@ -53,15 +53,13 @@
         <div class="intro__content">
           <h2 class="intro__subtitle">Hello, I’m</h2>
           <h1 class="intro__title">Petro Mandzyuk</h1>
-          <h3 class="intro__text">JS Developer</h3>
+          <h3 class="intro__text">Front-End Developer</h3>
 
           <div class="social">
             <a class="social__link" target="_blank" href="https://www.linkedin.com/in/petro-mandzyuk-78890a147/"><img
                 src="imgs/linkedin.svg" alt="" target="_blank"></a>
             <a class="social__link" target="_blank" href="https://www.facebook.com/petro33339"><img
                 src="imgs/facebook.svg" alt="" target="_blank"></a>
-            <a class="social__link" target="_blank" href="https://www.instagram.com/mandzyukp/"><img
-                src="imgs/instagram-sketched.svg" alt="" target="_blank"></a>
             <a class="social__link" target="_blank" href="https://github.com/Petro-JS-Developer"><img
                 src="imgs/github-image.svg" alt="" target="_blank"></a>
           </div>
@@ -85,81 +83,10 @@
       </div>
 
       <div class="portfolio" id="portfolio">
-        <div class="portfolio__col" data-cat="website">
-          <div class="work" data-modal="#modal__project__1">
-            <img class="work__img" src="imgs/P1/p1.png" alt="">
-            <div class="work__content">
-              <div class="work_cat">CATEGORY: Website</div>
-              <div class="work_title">ACTIVE BOX
-                <time datetime="2020-07-06 19.00" class="work_date">2020</time>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio__col" data-cat="website">
-          <div class="work" data-modal="#modal__project__2">
-            <img class="work__img" src="imgs/P2/Previous_img.png" alt="">
-            <div class="work__content">
-              <div class="work_cat">CATEGORY: Website</div>
-              <div class="work_title">MONGO
-                <time datetime="2020-07-06 19.00" class="work_date">2020</time>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio__col" data-cat="website">
-          <div class="work" data-modal="#modal__project__3">
-            <img class="work__img" src="imgs/P3/Previu_img.jpg" alt="">
-            <div class="work__content">
-              <div class="work_cat">CATEGORY: Website</div>
-              <div class="work_title">My Portfolio
-                <time datetime="2020-07-06 19.00" class="work_date">2020</time>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio__col" data-cat="website">
-          <div class="work">
-            <img class="work__img" src="https://via.placeholder.com/370x300?text=to+be+continued..." alt="">
-            <div class="work__content">
-              <div class="work_cat">CATEGORY: Website</div>
-              <div class="work_title">PROJECT TITLE
-                <time datetime="2020-07-06 19.00" class="work_date">2020</time>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio__col" data-cat="app">
-          <div class="work">
-            <img class="work__img" src="https://via.placeholder.com/370x300?text=to+be+continued..." alt="">
-            <div class="work__content">
-              <div class="work_cat">CATEGORY: app</div>
-              <div class="work_title">PROJECT TITLE
-                <time datetime="2020-07-06 19.00" class="work_date">2020</time>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio__col" data-cat="website">
-          <div class="work">
-            <img class="work__img" src="https://via.placeholder.com/370x300?text=to+be+continued..." alt="">
-            <div class="work__content">
-              <div class="work_cat">CATEGORY: Website</div>
-              <div class="work_title">PROJECT TITLE
-                <time datetime="2020-07-06 19.00" class="work_date">2020</time>
-              </div>
-            </div>
-          </div>
-        </div>
 
       </div><!-- /.portfolio -->
       <div class="text__center">
-        <a class="btn btn--sm" href="#">LOAD MORE WORK</a>
+        <button class="btn btn--sm" href="#" id="moreWorks">LOAD MORE WORK</button>
       </div>
 
     </div><!-- /.container -->
@@ -179,6 +106,7 @@
               I am a young, promising, purposeful, full of energy guy who knows what he wants from life and work.
               I am happy to work in a team, support and implement new ideas.
             </p>
+
             <p>
               What I want from programming:
               <ul>
@@ -189,8 +117,11 @@
             <p>
               <ul>
                 <li>Develop projects that would help businesses develop (so that machines do machine work) CRM, chatbots, parsers, advanced sites</li>
+                <li>Advanced sites - change the content of the page depending on the user's query, adapting to it, it should also be a symbiosis of UI, content and search engine optimization</li>
+                <li>Analytics systems, "Big data"</li>
                 <li>Blockchain</li>
                 <li>Working with financial markets (creating a program for market analysis and automatic effective trading depending on market signals)</li>
+                <li>Artificial Intelligence</li>
               </ul>
             </p>
             I'm sure there are many more interesting things I just don't know about, let's get acquainted, let's talk about your project.
@@ -218,8 +149,35 @@
             </div>
 
             <div class="reviews__author">
-              <img class="reviews__photo" src="imgs/Christina_reviews.jpg" alt="">
+              <img class="reviews__photo" src="imgs/reviews_photo1.jpg" alt="">
               <div class="reviews__name">Christina Shevnina</div>
+              <div class="reviews__company">Marketing House</div>
+              <div class="reviews__rating">
+                <img class="reviews__star" src="imgs/star.svg" alt="">
+                <img class="reviews__star" src="imgs/star.svg" alt="">
+                <img class="reviews__star" src="imgs/star.svg" alt="">
+                <img class="reviews__star" src="imgs/star.svg" alt="">
+                <img class="reviews__star" src="imgs/star.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <!--/.reviews__item -->
+        </div>
+
+
+
+        <div>
+          <div class="reviews__item">
+            <div class="reviews__text">
+              <p>
+                Thank you for the wonderful cooperation in developing the site, I was very comfortable to communicate with you, as a result we received a wonderful product which we are very pleased with. Be sure to give all the following projects to you.
+                <br>Thank you!
+              </p>
+            </div>
+
+            <div class="reviews__author">
+              <img class="reviews__photo" src="imgs/daniel-xavier-reviews.jpg" alt="">
+              <div class="reviews__name">Olga Andrushchenko</div>
               <div class="reviews__company">Marketing House</div>
               <div class="reviews__rating">
                 <img class="reviews__star" src="imgs/star.svg" alt="">
@@ -232,21 +190,19 @@
           </div>
           <!--/.reviews__item -->
         </div>
-     
 
-      
         <div>
           <div class="reviews__item">
             <div class="reviews__text">
               <p>
-                Thank you for the wonderful cooperation in developing the site, I was very comfortable to communicate with you, as a result we received a wonderful product which we are very pleased with. Be sure to give all the following projects to you.
+                One of my best decisions was to contact you.
                 <br>Thank you!
               </p>
             </div>
 
             <div class="reviews__author">
-              <img class="reviews__photo" src="imgs/Christina_reviews.jpg" alt="">
-              <div class="reviews__name">Christina Shevnina</div>
+              <img class="reviews__photo" src="imgs/Veronika_reviews.jpg" alt="">
+              <div class="reviews__name">Veronica Bondarenko</div>
               <div class="reviews__company">Marketing House</div>
               <div class="reviews__rating">
                 <img class="reviews__star" src="imgs/star.svg" alt="">
@@ -270,97 +226,15 @@
 
       <div class="news_header">
         <div class="news__title">READ ME</div>
-        <div class="news__text">Sometimes i write something smart</div>
+        <div class="news__text">Sometimes i write something smar</div>
       </div>
 
-      <div class="articles">
-        <div class="articles__col">
-          <div class="articles__item">
-            <div class="articles__header">
-              <time class="articles__date">10<br>june
-              </time>
-              <a href="#"><img class="articles__photo" src="imgs/Bootstrap.jpg" alt=""></a>
-            </div>
-            <div class="articles__content">
-              <div class="articles__title"><a href="">What's new in Bootstrap 5 </a> </div>
-              <div class="articles__cat">WEB Development</div>
-              <div class="articles__text">
-                <p>
-                  Here are some of the expected changes in Bootstrap 5:
-                  <ul>
-                    <li>JQuery has been removed;</li>
-                    <li>Switch to Vanilla JavaScript;</li>
-                    <li>Adaptive font sizes;</li>
-                    <li>Disable support for Internet Explorer 10 and 11;</li>
-                    <li>Changing the unit of width;</li>
-                    <li>Remote Card Decks;</li>
-                    <li>Navbar optimization;</li>
-                    <li>SVG icon user library;</li>
-                    <li>The transition from Jekyll to Hugo;</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <a href="" class="btn btn--sm">READ MORE</a>
-          </div>
-        </div>
-
-        <div class="articles__col">
-          <div class="articles__item">
-            <div class="articles__header">
-              <time class="articles__date">12<br>june
-              </time>
-              <a href="#"><img class="articles__photo" src="imgs/HTML.jpg" alt=""></a>
-            </div>
-            <div class="articles__content">
-              <div class="articles__title"><a href="">What's new in HTML5 and CSS3</a> </div>
-              <div class="articles__cat">WEB Development</div>
-              <div class="articles__text">
-                <p>The two main differences between HTML 5 and HTML 4 are:
-                  <ul>
-                    <li>Many new tags (header, footer, section) appeared, which made the structure of the document simpler;++++</li>
-                    <li>Removed old tags, which with the advent of CSS3 and HTML5 become completely unclaimed.</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <a href="" class="btn btn--sm">READ MORE</a>
-          </div>
-        </div>
-
-        <div class="articles__col">
-          <div class="articles__item">
-            <div class="articles__header">
-              <time class="articles__date">13<br>june
-              </time>
-              <a href="#"><img class="articles__photo" src="imgs/JS_.jpg" alt=""></a>
-            </div>
-            <div class="articles__content">
-              <div class="articles__title"><a href="">Innovation JavaScript ES2020 with simple examples</a> </div>
-              <div class="articles__cat">WEB Development</div>
-              <div class="articles__text">
-                <p>JavaScript innovations in ES2020:
-                  <ul>
-                    <li>method String.prototype.matchAll;</li>
-                    <li>dynamic import ();</li>
-                    <li>BigInt type;</li>
-                    <li>method Promise.allSettled;</li>
-                    <li>globalThis object;</li>
-                    <li>for-in loop execution mechanism;</li>
-                    <li>Optional Chaining operator;</li>
-                    <li>operator Nullish Coalescing.</li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <a href="" class="btn btn--sm">READ MORE</a>
-          </div>
-        </div><!-- /.articles__col -->
+      <div class="articles" id="articlesBlock">
 
 
       </div><!-- /.articles -->
       <div class="news__footer">
-        <a class="news__link" href="">See more posts</a>
+        <a class="news__link" href="" id="moreArticles">See more posts</a>
       </div>
     </div> <!-- /.container -->
   </section>
@@ -377,9 +251,6 @@
             </a>
             <a href="https://www.facebook.com/petro33339" target="_blank">
               <img height="21" src="imgs/fb-gray.svg" alt="">
-            </a>
-            <a href="https://www.instagram.com/mandzyukp/" target="_blank">
-              <img width="18" src="imgs/instagram-gray.svg" alt="">
             </a>
             <a class="social__link" target="_blank" href="https://github.com/Petro-JS-Developer"><img width="18"
                 src="imgs/github-image-gray.svg" alt="" target="_blank"></a>
@@ -401,607 +272,1113 @@
 
 
   <!-- Modals -->
-  <div class="container">
-    <div class="modal" id="modal__project__1">
-      <div class="modal__dialog">
+  <div id="modal_container">
+    <div class="container">
+      <div class="modal" id="modal__project__1">
+        <div class="modal__dialog">
 
-        <button type="button" class="modal__close" data-close=""> <img src="imgs/close.svg" alt="close"></button>
-        <div class="modal__work">
-          <div class="modal__work-previews">
-            <div data-slider="slick">
-              <div>
-                <img class="modal__work__photo" src="imgs/P1/P2.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P1/P3.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P1/p4.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P1/Pop_up.jpg" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="modal__work-content">
-            <div class="modal__work__header">
-              <h3 class="modal__work__title">ACTIVE BOX</h3>
-              <div class="modal__work__info">
-                WEBSITE <span class="modal__work__info__divider">|</span> 2020
-              </div>
-            </div>
-
-            <div class="modal__work__client">
-              <div class="modal__work__client__title">Client: Own order</div>
-              <div class="modal__work__client__company">Creative Agency</div>
-            </div>
-            <div class="modal__work__text">
-              <p>This site was my first developed site.</p>
-              <p>When designing the site, I used: <br>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Photoshop</li>
-                </ul>
-                Site chips:
-                <ul>
-                  <li>Burger menu</li>
-                  <li>Feedback form and pop-ups</li>
-                  <li>The site is adapted for most mobile devices and tablets</li>
-                  <li>Used SVG and Sprite to change the color of the icons</li>
-                </ul>
-
-                <b>Connected JS and jquery that allowed to revive the page:</b>
-                <ul>
-                  <li>Smooth scrolling to blocks</li>
-                  <li>Fixing navigation</li>
-                  <li>Hide the mobile menu after clicking on the menu item</li>
-                  <li>"Slick" slider connected and configured</li>
-                </ul>
-              </p>
-            </div>
-
-            <div class="modal__work__footer">
-              <button type="button" class="modal__work__btn slickPrev">
-                <img class="img__Previous" src="imgs/arrow__prev.svg" alt="">
+          <button type="button" class="modal__close" data-close=""> <img src="imgs/close.svg" alt="close"></button>
+          <div class="modal__work">
+            <div class="modal__work-previews">
+              <div data-slider="slick">
                 <div>
-                  Previous
+                  <img class="modal__work__photo" src="imgs/P1/P2.jpg" alt="">
                 </div>
 
-              </button>
-              <button type="button" class="modal__work__btn slickNext">
                 <div>
-                  Next
+                  <img class="modal__work__photo" src="imgs/P1/P3.jpg" alt="">
                 </div>
-                <div class="img__Next">
-                  <img src="imgs/arrow__next.svg" alt="">
-                </div>
-              </button>
-            </div>
 
-
-          </div><!-- /.modal__work-content -->
-
-        </div><!-- /.modal__work -->
-
-      </div><!-- /.modal__dialog -->
-    </div><!-- /.Modal -->
-
-    <div class="modal" id="modal__project__2">
-      <div class="modal__dialog">
-
-        <button type="button" class="modal__close" data-close=""> <img src="imgs/close.svg" alt="close"></button>
-        <div class="modal__work">
-          <div class="modal__work-previews">
-            <div data-slider="slick">
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p1.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p2.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p3.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p4.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p5.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p6.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p7.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p8.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p9.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p10.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p11.jpg" alt="">
-              </div>
-
-              <div>
-                <img class="modal__work__photo" src="imgs/P2/p12.jpg" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="modal__work-content">
-            <div class="modal__work__header">
-              <h3 class="modal__work__title">MONGO - WEB-SITE</h3>
-              <div class="modal__work__info">
-                Business card site <span class="modal__work__info__divider">|</span> 2020
-              </div>
-            </div>
-
-            <div class="modal__work__client">
-              <div class="modal__work__client__title">Client:</div>
-              <div class="modal__work__client__company">Creative Agency</div>
-            </div>
-            <div class="modal__work__text">
-              <p>
-                Technologies used:
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JS</li>
-                  <li>Jquery</li>
-                </ul>
-              </p>
-              <p>
-                Site chips:
-                <ul>
-                  <li>The animated Burger menu is created using pseudo elements</li>
-                  <li>Also a great animation was the displacement of the block from the photo when hovering</li>
-                  <li>and a slider, a fixing navigation when scrolling</li>
-                  <li>Block "Bayan" which expands and collapses when clicked</li>
-                  <li>The original block of works with different sizes of photos</li>
-                  <li>Adapted for mobile devices</li>
-                </ul>
-              </p>
-              <p>The site came out "alive" with rich bright colors and spacious.</p>
-            </div>
-
-            <div class="modal__work__footer">
-              <button type="button" class="modal__work__btn slickPrev">
-                <img class="img__Previous" src="imgs/arrow__prev.svg" alt="">
                 <div>
-                  Previous
+                  <img class="modal__work__photo" src="imgs/P1/p4.jpg" alt="">
                 </div>
 
-              </button>
-              <button type="button" class="modal__work__btn slickNext">
                 <div>
-                  Next
+                  <img class="modal__work__photo" src="imgs/P1/Pop_up.jpg" alt="">
                 </div>
-                <div class="img__Next">
-                  <img src="imgs/arrow__next.svg" alt="">
-                </div>
-              </button>
-            </div>
-          </div><!-- /.modal__work-content -->
-        </div><!-- /.modal__work -->
-      </div><!-- /.modal__dialog -->
-    </div><!-- /.Modal -->
-
-    <div class="modal" id="modal__project__3">
-      <div class="modal__dialog">
-
-        <button type="button" class="modal__close" data-close=""> <img src="imgs/close.svg" alt="close"></button>
-        <div class="modal__work">
-          <div class="modal__work-previews">
-            <div data-slider="slick">
-              <div>
-                <img class="modal__work__photo" src="imgs/P3/p1.jpg" alt="">
-              </div>
-
-            </div>
-          </div>
-          <div class="modal__work-content">
-            <div class="modal__work__header">
-              <h3 class="modal__work__title">Portfolio</h3>
-              <div class="modal__work__info">
-                Business card site <span class="modal__work__info__divider">|</span> 2020
               </div>
             </div>
+            <div class="modal__work-content">
+              <div class="modal__work__header">
+                <h3 class="modal__work__title">ACTIVE BOX</h3>
+                <div class="modal__work__info">
+                  WEBSITE <span class="modal__work__info__divider">|</span> 2020
+                </div>
+              </div>
 
-            <div class="modal__work__client">
-              <div class="modal__work__client__title">Client:</div>
-              <div class="modal__work__client__company">Creative Agency</div>
-            </div>
-            <div class="modal__work__text">
-              <p>
-                Technologies used:
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Gulp</li>
-                  <li>Node.js</li>
-                  <li>Less</li>
-                  <li>JS</li>
-                  <li>Jquery</li>
-                  <li>Ajax</li>
-                  <li>PHP</li>
-                </ul>
-              </p>
-              Connected resources:
-              <p>
-                <ul>
-                  <li>Jquery</li>
-                  <li>Slick-slider</li>
-                  <li>phpMailer</li>
-                </ul>
-              </p>
-              <p>
-                Site chips:
-                <ul>
-                  <li>When scrolling blocks of the site, the underline of the current block is moved in the menu</li>
-                  <li>Modal windows</li>
-                  <li>Feedback form with sending a message to the mail</li>
-                  <li>Ability to print a specific document, not the entire page of the site</li>
-                  <li>Adapted for mobile</li>
-                  <li>Filter works</li>
-                </ul>
-              </p>
-            </div>
+              <div class="modal__work__client">
+                <div class="modal__work__client__title">Client: Own order</div>
+                <div class="modal__work__client__company">Creative Agency</div>
+              </div>
+              <div class="modal__work__text">
+                <p>This site was my first developed site.</p>
+                <p>When designing the site, I used: <br>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Photoshop</li>
+                  </ul>
+                  Site chips:
+                  <ul>
+                    <li>Burger menu</li>
+                    <li>Feedback form and pop-ups</li>
+                    <li>The site is adapted for most mobile devices and tablets</li>
+                    <li>Used SVG and Sprite to change the color of the icons</li>
+                  </ul>
 
-            <div class="modal__work__footer">
-              <button type="button" class="modal__work__btn slickPrev">
-                <img class="img__Previous" src="imgs/arrow__prev.svg" alt="">
+                  <b>Connected JS and jquery that allowed to revive the page:</b>
+                  <ul>
+                    <li>Smooth scrolling to blocks</li>
+                    <li>Fixing navigation</li>
+                    <li>Hide the mobile menu after clicking on the menu item</li>
+                    <li>"Slick" slider connected and configured</li>
+                  </ul>
+                </p>
+                <p> <a class="linkOnSite" href="https://petro-js-developer.github.io/FirstSite.github.io/"
+                    target="_ blank">Link to the site:</a> </p>
+              </div>
+
+              <div class="modal__work__footer">
+                <button type="button" class="modal__work__btn slickPrev">
+                  <img class="img__Previous" src="imgs/arrow__prev.svg" alt="">
+                  <div>
+                    Previous
+                  </div>
+
+                </button>
+                <button type="button" class="modal__work__btn slickNext">
+                  <div>
+                    Next
+                  </div>
+                  <div class="img__Next">
+                    <img src="imgs/arrow__next.svg" alt="">
+                  </div>
+                </button>
+              </div>
+            </div><!-- /.modal__work-content -->
+          </div><!-- /.modal__work -->
+        </div><!-- /.modal__dialog -->
+      </div><!-- /.Modal -->
+
+      <div class="modal" id="modal__project__2">
+        <div class="modal__dialog">
+
+          <button type="button" class="modal__close" data-close=""> <img src="imgs/close.svg" alt="close"></button>
+          <div class="modal__work">
+            <div class="modal__work-previews">
+              <div data-slider="slick">
                 <div>
-                  Previous
+                  <img class="modal__work__photo" src="imgs/P2/p1.jpg" alt="">
                 </div>
 
-              </button>
-              <button type="button" class="modal__work__btn slickNext">
                 <div>
-                  Next
+                  <img class="modal__work__photo" src="imgs/P2/p2.jpg" alt="">
                 </div>
-                <div class="img__Next">
-                  <img src="imgs/arrow__next.svg" alt="">
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p3.jpg" alt="">
                 </div>
-              </button>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p4.jpg" alt="">
+                </div>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p5.jpg" alt="">
+                </div>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p6.jpg" alt="">
+                </div>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p7.jpg" alt="">
+                </div>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p8.jpg" alt="">
+                </div>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p9.jpg" alt="">
+                </div>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p10.jpg" alt="">
+                </div>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p11.jpg" alt="">
+                </div>
+
+                <div>
+                  <img class="modal__work__photo" src="imgs/P2/p12.jpg" alt="">
+                </div>
+              </div>
             </div>
-          </div><!-- /.modal__work-content -->
-        </div><!-- /.modal__work -->
-      </div><!-- /.modal__dialog -->
-    </div><!-- /.Modal -->
-  </div>
+            <div class="modal__work-content">
+              <div class="modal__work__header">
+                <h3 class="modal__work__title">MONGO</h3>
+                <div class="modal__work__info">
+                  Business card site <span class="modal__work__info__divider">|</span> 2020
+                </div>
+              </div>
 
-  <div class="modal" id="modal__resume">
-    <div class="modal__dialog print modal__dialog--resume">
-      <button type="button" class="modal__close" data-close="">
-        <img src="imgs/close.svg" alt="close">
-      </button>
+              <div class="modal__work__client">
+                <div class="modal__work__client__title">Client: Own order</div>
+                <div class="modal__work__client__company">Creative Agency</div>
+              </div>
+              <div class="modal__work__text">
+                <p>
+                  Technologies used:
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Jquery</li>
+                  </ul>
+                </p>
+                <p>
+                  Site chips:
+                  <ul>
+                    <li>The animated Burger menu is created using pseudo elements</li>
+                    <li>Also a great animation was the displacement of the block from the photo when hovering</li>
+                    <li>and a slider, a fixing navigation when scrolling</li>
+                    <li>Block "Bayan" which expands and collapses when clicked</li>
+                    <li>The original block of works with different sizes of photos</li>
+                    <li>Adapted for mobile devices</li>
+                  </ul>
+                </p>
+                <p>The site came out "alive" with rich bright colors and spacious.</p>
+                <p><a class="linkOnSite" href="https://petro-js-developer.github.io/secondSite.github.io/"
+                    target="_ blank">Link to the site:</a></p>
+              </div>
 
-      <div class="modal__content">
-        <h3 class="modal__title text__center">Resume</h3>
-        <div class="text__center">
-          <a class="btn btn--thin" href="Files/Резюме — Junior js developer, Peter Mandzyuk.docx" download>DOWNLOAD Full
-            resume</a>
-          <button class="btn btn--thin" href="" onclick="printEl()">PRINT</button>
-        </div>
+              <div class="modal__work__footer">
+                <button type="button" class="modal__work__btn slickPrev">
+                  <img class="img__Previous" src="imgs/arrow__prev.svg" alt="">
+                  <div>
+                    Previous
+                  </div>
 
-        <div class="timeline">
-          <div class="timeline__col timeline__col--left">
-            <h4 class="timeline__title">EDUCATION</h4>
-            <div class="timeline__item">
-              <time class="timeline__date" datetime="11-21-219">2013-2016</time>
-              <h5 class="timeline__supTitle">Mechanical engineer</h5>
-              <div class="timeline__position">NUBIP</div>
+                </button>
+                <button type="button" class="modal__work__btn slickNext">
+                  <div>
+                    Next
+                  </div>
+                  <div class="img__Next">
+                    <img src="imgs/arrow__next.svg" alt="">
+                  </div>
+                </button>
+              </div>
+            </div><!-- /.modal__work-content -->
+          </div><!-- /.modal__work -->
+        </div><!-- /.modal__dialog -->
+      </div><!-- /.Modal -->
+
+      <div class="modal" id="modal__project__3">
+        <div class="modal__dialog">
+
+          <button type="button" class="modal__close" data-close=""> <img src="imgs/close.svg" alt="close"></button>
+          <div class="modal__work">
+            <div class="modal__work-previews">
+              <div data-slider="slick">
+                <div>
+                  <img class="modal__work__photo" src="imgs/P3/p1.jpg" alt="">
+                </div>
+
+              </div>
             </div>
-
-            <h4 class="timeline__title">Additional education</h4>
-            <div class="timeline__item">
-              <time class="timeline__date" datetime="11-21-219">2020 - <b>Present</b></time>
-              <h5 class="timeline__supTitle">Junior Frontend Developer</h5>
-              <div class="timeline__position">Mate academy</div>
-            </div>
-            <div class="timeline__item">
-              <time class="timeline__date" datetime="11-21-219">2020 - <b>Present</b></time>
-              <h5 class="timeline__supTitle">Junior Frontend Developer</h5>
-              <div class="timeline__position">Html academy</div>
-            </div>
-
-
-            <h4 class="timeline__title">Skills</h4>
-            <div class="progress__bar">
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">HTML</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 93%;"></div>
-                  </div>
+            <div class="modal__work-content">
+              <div class="modal__work__header">
+                <h3 class="modal__work__title">Portfolio</h3>
+                <div class="modal__work__info">
+                  Business card site <span class="modal__work__info__divider">|</span> 2020
                 </div>
               </div>
 
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">CSS</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 91%;"></div>
-                  </div>
-                </div>
+              <div class="modal__work__client">
+                <div class="modal__work__client__title">Client: I</div>
+                <div class="modal__work__client__company">Creative Agency</div>
               </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">Photoshop</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 75%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">Adobe XD</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 58%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">Figma</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 47%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">PHP</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 37%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">JS</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 80%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">AJAX</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 30%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">Less</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 70%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">Bootstrap</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 75%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">React</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 45%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">Redux</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 65%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">Node.js</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 85%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">Gulp</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 48%;"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="progress__bar__item">
-                <div class="progress__bar__left">
-                  <div class="progress__bar__title">GIT</div>
-                </div>
-                <div class="progress__bar__right">
-                  <div class="progress__bar__bar">
-                    <div class="progress__bar__progress" style="width: 92%;"></div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- /.progress__bar -->
-          </div> <!-- timeline -->
-
-
-
-          <div class="timeline__col timeline__col--right">
-            <h4 class="timeline__title">EXPERIENCE</h4>
-
-            <div class="timeline__item">
-              <time class="timeline__date" datetime="11-21-219">2020 - <b>Present</b></time>
-              <h5 class="timeline__supTitle">Freelancer</h5>
-              <div class="timeline__position">Junior/Trainee Frontend Developer</div>
-              <div class="timeline__text">
+              <div class="modal__work__text">
+                <p>
+                  Technologies used:
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Gulp</li>
+                    <li>Node.js</li>
+                    <li>Less</li>
+                    <li>JS</li>
+                    <li>Jquery</li>
+                    <li>Ajax</li>
+                    <li>PHP</li>
+                  </ul>
+                </p>
+                Connected resources:
                 <p>
                   <ul>
-                    <li class="text__left">Knowledge of HTML5, CSS3;</li>
-                    <li class="text__left">Adaptive and responsive layout, pixel perfect markup;</li>
-                    <li class="text__left">Strong understanding cross-browser compatibility;</li>
-                    <li class="text__left">BEM methodology (ability to write clean and reusable code);</li>
-                    <li class="text__left">JavaScript, ES6;</li>
-                    <li class="text__left">Advanced knowledge of Chrome DevTools and debugging;</li>
-                    <li class="text__left">Еxperience with version control systems (Git, GitHub);</li>
-                    <li class="text__left">Experience with graphics editor Photoshop;</li>
-                    <li class="text__left">Scrum;</li>
-                    <li class="text__left">Read technical documentation.</li>
+                    <li>Jquery</li>
+                    <li>Slick-slider</li>
+                    <li>phpMailer</li>
+                  </ul>
+                </p>
+                <p>
+                  Site chips:
+                  <ul>
+                    <li>When scrolling blocks of the site, the underline of the current block is moved in the menu</li>
+                    <li>Modal windows</li>
+                    <li>Feedback form with sending a message to the mail</li>
+                    <li>Ability to print a specific document, not the entire page of the site</li>
+                    <li>Adapted for mobile</li>
+                    <li>Filter works</li>
                   </ul>
                 </p>
               </div>
-            </div>
 
-            <div class="timeline__item">
-              <time class="timeline__date" datetime="11-21-219">2018 - 2020</time>
-              <h5 class="timeline__supTitle">GALANT POL ELECTRA</h5>
-              <div class="timeline__position">Internet marketer</div>
-              <div class="timeline__text">
-                <p>
-                  Achievements:
-                  <ul>
-                    <li class="text__left">Advertising strategy in "Digital direction";</li>
-                    <li class="text__left">Analytics of channel efficiency;</li>
-                    <li class="text__left">Successful email marketing;</li>
-                    <li class="text__left">Development a business portal for B2B customers;</li>
-                    <li class="text__left">Introduction CRM (B24) in the company with business process setup and integration with 1C, mail and IP telephony, automated application processing;</li>
-                    <li class="text__left">Automation of various business processes within the company, using 1C and CRM systems.</li>
-                  </ul>
-                </p>
+              <div class="modal__work__footer">
+                <button type="button" class="modal__work__btn slickPrev">
+                  <img class="img__Previous" src="imgs/arrow__prev.svg" alt="">
+                  <div>
+                    Previous
+                  </div>
+
+                </button>
+                <button type="button" class="modal__work__btn slickNext">
+                  <div>
+                    Next
+                  </div>
+                  <div class="img__Next">
+                    <img src="imgs/arrow__next.svg" alt="">
+                  </div>
+                </button>
               </div>
+            </div><!-- /.modal__work-content -->
+          </div><!-- /.modal__work -->
+        </div><!-- /.modal__dialog -->
+      </div><!-- /.Modal -->
+    </div>
+
+    <div class="modal" id="modal__resume">
+      <div class="modal__dialog print modal__dialog--resume">
+        <button type="button" class="modal__close" data-close="">
+          <img src="imgs/close.svg" alt="close">
+        </button>
+
+        <div class="modal__content">
+          <h3 class="modal__title text__center">Resume</h3>
+          <div class="text__center">
+            <a class="btn btn--thin" href="Files/Резюме — Junior js developer, Peter Mandzyuk.docx" download>DOWNLOAD Full
+              resume</a>
+            <button class="btn btn--thin" href="" onclick="printEl()">PRINT</button>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline__col timeline__col--left">
+              <h4 class="timeline__title">EDUCATION</h4>
+              <div class="timeline__item">
+                <time class="timeline__date" datetime="11-21-219">2013-2016</time>
+                <h5 class="timeline__supTitle">Mechanical engineer</h5>
+                <div class="timeline__position">NUBIP</div>
+              </div>
+
+              <h4 class="timeline__title">Additional education</h4>
+              <div class="timeline__item">
+                <time class="timeline__date" datetime="11-21-219">2020 - <b>Present</b></time>
+                <h5 class="timeline__supTitle">Junior Frontend Developer</h5>
+                <div class="timeline__position">Mate academy</div>
+              </div>
+              <div class="timeline__item">
+                <time class="timeline__date" datetime="11-21-219">2020 - <b>Present</b></time>
+                <h5 class="timeline__supTitle">Junior Frontend Developer</h5>
+                <div class="timeline__position">Html academy</div>
+              </div>
+
+
+              <h4 class="timeline__title">Skills</h4>
+              <div class="progress__bar">
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">HTML</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 93%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">CSS</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 91%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">Photoshop</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 75%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">Adobe XD</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 58%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">Figma</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 47%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">PHP</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 37%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">JS</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 80%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">AJAX</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 30%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">Less</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 70%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">Bootstrap</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 75%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">React</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 45%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">Redux</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 65%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">Node.js</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 85%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">Gulp</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 48%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="progress__bar__item">
+                  <div class="progress__bar__left">
+                    <div class="progress__bar__title">GIT</div>
+                  </div>
+                  <div class="progress__bar__right">
+                    <div class="progress__bar__bar">
+                      <div class="progress__bar__progress" style="width: 92%;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- /.progress__bar -->
+            </div> <!-- timeline -->
+
+
+
+            <div class="timeline__col timeline__col--right">
+              <h4 class="timeline__title">EXPERIENCE</h4>
+
+              <div class="timeline__item">
+                <time class="timeline__date" datetime="11-21-219">2020 - <b>Present</b></time>
+                <h5 class="timeline__supTitle">Freelancer</h5>
+                <div class="timeline__position">Front-End Developer</div>
+                <div class="timeline__text">
+                  <p>
+                    <ul>
+                      <li class="text__left">Knowledge of HTML5, CSS3;</li>
+                      <li class="text__left">Adaptive and responsive layout, pixel perfect markup;</li>
+                      <li class="text__left">Strong understanding cross-browser compatibility;</li>
+                      <li class="text__left">BEM methodology (ability to write clean and reusable code);</li>
+                      <li class="text__left">JavaScript, ES6;</li>
+                      <li class="text__left">Advanced knowledge of Chrome DevTools and debugging;</li>
+                      <li class="text__left">Еxperience with version control systems (Git, GitHub);</li>
+                      <li class="text__left">Experience with graphics editor Photoshop;</li>
+                      <li class="text__left">Scrum;</li>
+                      <li class="text__left">Read technical documentation.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline__item">
+                <time class="timeline__date" datetime="11-21-219">2018 - 2020</time>
+                <h5 class="timeline__supTitle">GALANT POL ELECTRA</h5>
+                <div class="timeline__position">Internet marketer</div>
+                <div class="timeline__text">
+                  <p>
+                    Achievements:
+                    <ul>
+                      <li class="text__left">Advertising strategy in "Digital direction";</li>
+                      <li class="text__left">Analytics of channel efficiency;</li>
+                      <li class="text__left">Successful email marketing;</li>
+                      <li class="text__left">Development a business portal for B2B customers;</li>
+                      <li class="text__left">Introduction CRM (B24) in the company with business process setup and integration with 1C, mail and IP telephony, automated application processing;</li>
+                      <li class="text__left">Automation of various business processes within the company, using 1C and CRM systems.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div><!-- /.timeline__col -->
+          </div><!-- /.timeline -->
+          <div class="text__center">
+            <a href="#" class="btn" data-modal="#modal__here__me">HIRE ME</a>
+          </div>
+        </div><!-- /.modal__content -->
+
+      </div><!-- /.modal__dialog -->
+    </div><!-- /.Modal -->
+
+
+    <div class="modal" id="modal__here__me">
+      <div class="modal__dialog modal__dialog--sm">
+        <button type="button" class="modal__close" data-close="">
+          <img src="imgs/close.svg" alt="close">
+        </button>
+
+        <div class="contact">
+          <div class="contact__left">
+            <h3 class="modal__title mb-0">LET'S TALK!</h3>
+            <h4 class="modal__subTittle">
+              CALL ME OR SEND ME A REQUEST
+            </h4>
+            <ul class="contact__info">
+              <li class="contact__info__item">
+                <img class="contact__info__icon" src="imgs/phone.svg" alt="">
+                <a href="tel:+380981234567">+380 98 526 62 51</a>
+              </li>
+              <li class="contact__info__item">
+                <img class="contact__info__icon" src="imgs/message.svg" alt="">
+                <a href="mailto:petrom333@gmail.com">petrom333@gmail.com</a>
+              </li>
+            </ul>
+
+
+
+            <form class="form" action="mail.php" method="POST" id="ajax-contact-form">
+              <div class="form__group">
+                <label for="input_email" class="form__label">Adress e-mail</label>
+                <input type="text" name="input_email" class="form__input" placeholder="Adress e-mail" id="input_email"
+                  required>
+              </div>
+
+              <div class="form__group">
+                <label for="input_email" class="form__label">Request</label>
+                <textarea name="input_text" class="form__textarea" placeholder="Type your request..." id="input_text"
+                  required></textarea>
+              </div>
+
+              <div class="text__right">
+                <button class="btn" type="submit">SEND</button>
+              </div>
+            </form>
+
+
+
+          </div><!-- /.contact__left -->
+          <div class="contact__right">
+            <img class="contact__photo" src="imgs/man-in-black-suit-smiling-3778673.jpg" alt="">
+          </div>
+        </div><!-- /.contact -->
+
+      </div><!-- /.modal__dialog -->
+    </div><!-- /.Modal -->
+
+
+    <div class="modal" id="modal__Bootstrap__5">
+      <div class="modal__dialog modal__dialog--blog">
+        <button type="button" class="modal__close" data-close="">
+          <img src="imgs/close.svg" alt="close">
+        </button>
+
+        <div class="modal__content">
+          <section class="section__blog">
+            <h1 class="post-title">Що нового в Bootstrap 5</h1>
+            <div>
+              <p>
+                19 серпня 2015 року вийшов реліз 4-й версії Bootstrap, але тільки в 2018 році світ побачив закінчену
+                версію.
+                І ось вже в 2020 році 16 червня розробники випустили 5, поки ще альфа-версію Bootstrap 5. Напевно
+                ще
+                буде маса доробок, які в тому числі торкнуться і найменувань, і зовнішнього вигляду класів, але
+                шанувальники
+                цього фреймворка вже можуть <strong> завантажити </strong> або <strong> встановити </strong> за
+                допомогою
+                <strong> npm </strong>, <strong> Composer </strong> або <strong> Meteor </strong> нову альфа-версію з
+                <a class="linkInText" href="https://v5.getbootstrap.com/" target="_blank">
+                  офіційного сайту Bootstrap 5
+                </a>
+              </p>
+              <h2>Що нового в Bootstrap 5 alpha</h2>
+              <p>Список найбільш важливих змін:
+                <img class="img__blog" src="imgs/blog/bootstrap-5-alpha.jpg" alt="Bootstrap 5 alpha" width="526"
+                  height="432" sizes="(max-width: 526px) 100vw, 526px">
+              </p>
+              <ol>
+                <li> Відмова від JQuery на користь Vanilla JavaScript, тобто класичного JS </li>
+                <li> Відключено підтримка браузера Internet Explorer версій 10 та 11 </li>
+                <li> Покращена система сітки </li>
+                <li> Покращена документація фреймворка </li>
+                <li> Використання CSS-змінних </li>
+                <li> Поліпшені форми </li>
+                <li> для користувача іконки на основі SVG </li>
+                <li> Нові класи утиліт і класи-помічники </li>
+                <li> Можливість створювати теми </li>
+                <li> Новий API утиліт </li>
+              </ol>
+              <p>Пробіжимося за списком змін.</p>
+              <ol>
+                <li><strong>Відмова від JQuery на користь Vanilla JavaScript </strong>, тобто класичного JS - це вже
+                  намітилася тенденція в світі розробки, тому що jQuery вже досить давно витісняється такими
+                  бібліотеками і фреймворками, як React.js, Vue.js і Angular.js. З одного боку, це має полегшити вагу
+                  Bootstrap 5 при завантаженні, з іншого - всім розробникам Landing Page, які використовували масу
+                  jQuery-плагінів
+                  для реалізації поставлених завдань доведеться задуматися про перехід до класичного JS. Для кого-то це
+                  стане плюсом, для кого-то мінусом, тому що доведеться міняти підходи і переучіваться.Спісок змін,
+                  пов'язаних з JS для Bootstrap&nbsp; можно найти на
+                  <a class="linkInText"
+                    href="https://github.com/twbs/bootstrap/issues?q=label%3Ajs+project%3Atwbs%2Fbootstrap%2F11+is%3Aclosed"
+                    target="_blank">GitHub</a>.</li>
+                <li><strong>Відключення підтримки браузера Internet Explorer версій 10 та 11</strong> - тут, в общем-то
+                  Bootstrap слід тенденції самої Microsoft, яка також перестала підтримувати IE 10 і молодше, тому що на
+                  його частку припадає близько 1% користувачів у світі.</li>
+                <li><strong>Покращена система сітки</strong> -в назвах класів відбулася лише одна зміна - додався клас
+                  <code>xxl</code> (Extra extra large) для разреширень екранів ≥1400px, т. д. для
+                  широкоформатних моніторов. Всі інші класси і брейкпоінти, в рамках яких вони діють,
+                  залишилися такі ж, що і в версії Bootstrap 4. Для побудови сітки використовується <a
+                    class="linkInText" href="http://html-plus.in.ua/model-flexbox-properties/" target="_blank">модель
+                    Flexbox</a>. Але є і ряд нововведень, які пов'язані із збільшенням використанням css-змінних.
+                  Наприклад, тепер ви самі можете вибрати, які відступи будуть у елементів, вказавши класи
+                  <code>.gx-*</code>. По замовчуванню <a class="linkInText"
+                    href="https://v5.getbootstrap.com/docs/5.0/layout/grid/#grid-options" target="_blank">відступи у
+                    классів</a> <strong>.col-</strong> складають 1.5rem
+                  - 20px (<strong>по .75rem</strong> зліва і права). Але ви можете додавати класи <code>p-*</code> для
+                  управління внутрішніми відступами колонок, а для класу <code>.row</code> задавати класс
+                  <code>gx-*</code>, який дозволить розрахувати негативні відступи у батьківського для колонок класу для
+                  компенсації
+                  <code>padding</code> на початку і вкінці ряду.
+                  Також появились декілька варіантів классів
+                  <code>.container</code>, які мають ширину в 100% для різних розширень екранів:<br>
+                  <table class="table__extensions__display">
+                    <thead>
+                      <tr>
+                        <td></td>
+                        <th scope="col">Extra small<br>
+                          <span class="font-weight-normal">&lt;576px</span></th>
+                        <th scope="col">Small<br>
+                          <span class="font-weight-normal">≥576px</span></th>
+                        <th scope="col">Medium<br>
+                          <span class="font-weight-normal">≥768px</span></th>
+                        <th scope="col">Large<br>
+                          <span class="font-weight-normal">≥992px</span></th>
+                        <th scope="col">X-Large<br>
+                          <span class="font-weight-normal">≥1200px</span></th>
+                        <th scope="col">XX-Large<br>
+                          <span class="font-weight-normal">≥1400px</span></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><code>.container</code></th>
+                        <td class="text-muted">100%</td>
+                        <td>540px</td>
+                        <td>720px</td>
+                        <td>960px</td>
+                        <td>1140px</td>
+                        <td>1320px</td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row"><code>.container-sm</code></th>
+                        <td class="text-muted">100%</td>
+                        <td>540px</td>
+                        <td>720px</td>
+                        <td>960px</td>
+                        <td>1140px</td>
+                        <td>1320px</td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row"><code>.container-md</code></th>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td>720px</td>
+                        <td>960px</td>
+                        <td>1140px</td>
+                        <td>1320px</td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row"><code>.container-lg</code></th>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td>960px</td>
+                        <td>1140px</td>
+                        <td>1320px</td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row"><code>.container-xl</code></th>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td>1140px</td>
+                        <td>1320px</td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row"><code>.container-xxl</code></th>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td>1320px</td>
+                      </tr>
+                      <tr>
+                        <th class="font-weight-normal" scope="row"><code>.container-fluid</code></th>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                        <td class="text-muted">100%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>Ви можете подивитися на зміни, відкривши в новій вкладці
+                    <a class="linkInText" href="https://v5.getbootstrap.com/docs/5.0/examples/grid/#containers"
+                      target="_blank"> файл прикладу</a>.</p>
+                </li>
+                <li><strong> Покращена документація фреймворка </strong> - розробники вказують, що вони попрацювали не
+                  тільки над текстом документації, а й над її зовнішнім виглядом. Покращено інтерфейс для різних екранів
+                  і навігація.
+                </li>
+                <li><strong> Використання CSS-змінних </strong> призвело до того, що нова версія стала гнучкіше в
+                  управлінні, особливо для тих верстальників, хто вже встиг оцінити їх переваги. Це ж привело до відмови
+                  від підтримки IE10, тому що в ньому
+                  <a class="linkInText" href="http://html-plus.in.ua/peremennye-v-css/" target="_blank">css-змінні</a>
+                  не працюють. Для початку ви можете використовувати стандартний набір кольорів Bootstrap-5 або поміняти
+                  їх за допомогою змінних. Правда, вам&nbsp; ще знадобится скомпілювати код SASS.
+                  <img class="img__blog" src="imgs/blog/colors-bootstrap-5.png" alt="кольори в Bootstrap-5" width="969"
+                    height="821" sizes="(max-width: 969px) 100vw, 969px" /></li>
+                <li><strong>Покращення форми</strong> - в 5-й версії була переглянута документацію за формами і
+                  компонентами.
+                  Тепер всі стилі форм об'єднані в новий<a class="linkInText"
+                    href="https://v5.getbootstrap.com/docs/5.0/forms/overview/" target="_blank"><strong> розділ
+                      Forms</strong></a> (включаючи компонент групи введення) для зручності користувачів.<br>
+                  <img class="img__blog" src="imgs/blog/forms-bootstrap-5-1024x653.png" width="800" height="510"
+                    sizes="(max-width: 800px) 100vw, 800px">
+                  <br>
+                  Багато класів, які були в Bootstrap-4 перекочували в v5 без змін, тому перенавчатися особливо не
+                  доведеться / Зміни торкнулися
+                  <a class="linkInText" href="https://v5.getbootstrap.com/docs/5.0/forms/checks/"
+                    target="_blank">чекбоксів і радіо</a> - додалося більше варіантів їх стилізації, які напевно
+                  припадуть вам до смаку і будуть застосовуватися на сторінках сайтів. <br>
+                  <img class="img__blog" src="imgs/blog/v5-checks.png" alt="v5-checkboxes" width="902" height="568"
+                    sizes="(max-width: 902px) 100vw, 902px">
+                </li>
+                <li><strong>Користувацькі іконки на основі SVG</strong>&nbsp; призначені для роботи з компонентами
+                  Bootstrap, починаючи від елементів форм і закінчуючи навігацій. Іконки виконані в форматі SVG, тому
+                  вони швидко і легко масштабуються і можуть бути стилізовані за допомогою CSS. Хоча вони створені для
+                  Bootstrap, вони будуть працювати в будь-якому проекті. Ви можете знайти їх на
+                  <a class="linkInText" href="https://icons.getbootstrap.com/" target="_blank">окремому сайті</a>,
+                  вибрати потрібну і скопіювати код в свій проект.<br>
+                  <img class="img__blog" src="imgs/blog/bootstrap-icons.png" alt="bootstrap icons" width="914"
+                    height="744" sizes="(max-width: 914px) 100vw, 914px">
+                  <br>
+                  Іконки можна використовувати з різними версіями Bootstrap, необов'язково тільки з 5-й його версією.
+                  Крім того, розробники абсолютно не наполягають на виборі Bootstrap-іконок. на відповідній
+                  <a class="linkInText" href="https://v5.getbootstrap.com/docs/5.0/extend/icons/"
+                    target="_blank">сторінка документації</a>
+                  ви знайдете посилання на популярний <a class="linkInText" href="https://fontawesome.com/"
+                    target="_blank">Font Awesome</a>,
+                  <a class="linkInText" href="https://feathericons.com/" target="_blank">Feather</a>,
+                  <a class="linkInText" href="https://material.io/resources/icons/" target="_blank">Google Material
+                    icons</a> і інші.</li>
+                <li><strong>Нові класси утиліт і класси-помічники</strong>, наприклад, повязані з
+                  <a class="linkInText" href="https://v5.getbootstrap.com/docs/5.0/utilities/interactions/"
+                    target="_blank"><em>выделением
+                      всьго тексту</em></a> або з неможливістю його виділеня, з
+                  pointer-events для посилань, класси для тіней,
+                  <a class="linkInText" href="http://html-plus.in.ua/flex-utility-for-adaptive-layout-on-bootstrap4/"
+                    target="_blank">flex-утилити</a>, знайомі по Bootstrap-4, утилити размірів, відображення,
+                  <a class="linkInText" href="http://html-plus.in.ua/bootstrap-4-classes-for-padding-and-margin/"
+                    target="_blank">відступів</a> і т.д.</li>
+                <li><strong>Можливість створювати теми.</strong> Якщо ви просунутий розробник, то можете скористатися
+                  стартовим проект <a class="linkInText" href="https://github.com/twbs/bootstrap-npm-starter">npm
+                    project</a>, щоб ви створювати свої колірні теми на основі Bootstrap 5. Він також доступний в
+                  <a class="linkInText" href="https://github.com/twbs/bootstrap-npm-starter" target="_blank">репозиторії
+                    GitHub</a>, так що
+                  ви можете використати його для своїх цілей.
+                  <br>
+                  <a href="" data-modal="#modal__Bootstrap__theming">
+                    <img class="img__blog" src="imgs/blog/color-theming-v5-1024x319.png"
+                      alt="Цветовые темы для Bootstrap 5" width="1024" height="319"
+                      sizes="(max-width: 800px) 100vw, 800px">
+                  </a>
+                </li>
+                <li><strong>Новий API утиліт </strong> дозволяє створювати свої класи на основі SASS-змінних. Наприклад,
+                  ви можете керувати назвами класів з прозорістю, додавши такі варіанти коду:<p></p>
+                  <img class="img__blog" src="imgs/blog/opacity_variable.jpg">
+                  <p>В результаті отримаєте такі класси:</p>
+                  <img class="img__blog" src="imgs/blog/class__opacity.jpg" alt="">
+                  <p>Команда Bootstrap 5 розуміє, що є ще багато роботи в v5, включаючи деякі серйозні зміни, але вони
+                    продовжують працювати і обіцяють випустити ще одну альфу протягом 3-4 тижнів, а потім, можливо, ще
+                    пару. У релізі v4.5.1 вони планують скоротити&nbsp; розрив між v4 і v5.</p>
+                </li>
+              </ol>
             </div>
-          </div><!-- /.timeline__col -->
-        </div><!-- /.timeline -->
-        <div class="text__center">
-          <a href="#" class="btn" data-modal="#modal__here__me">HIRE ME</a>
-        </div>
-      </div><!-- /.modal__content -->
+          </section>
+        </div><!-- /.modal__content -->
 
-    </div><!-- /.modal__dialog -->
-  </div><!-- /.Modal -->
-
-
-  <div class="modal" id="modal__here__me">
-    <div class="modal__dialog modal__dialog--sm">
-      <button type="button" class="modal__close" data-close="">
-        <img src="imgs/close.svg" alt="close">
-      </button>
-
-      <div class="contact">
-        <div class="contact__left">
-          <h3 class="modal__title mb-0">LET'S TALK!</h3>
-          <h4 class="modal__subTittle">
-            CALL ME OR SEND ME A REQUEST
-          </h4>
-          <ul class="contact__info">
-            <li class="contact__info__item">
-              <img class="contact__info__icon" src="imgs/phone.svg" alt="">
-              <a href="tel:+380981234567">+380 98 526 62 51</a>
-            </li>
-            <li class="contact__info__item">
-              <img class="contact__info__icon" src="imgs/message.svg" alt="">
-              <a href="mailto:petrom333@gmail.com">petrom333@gmail.com</a>
-            </li>
-          </ul>
+      </div><!-- /.modal__dialog -->
+      <div class="modal--blog--img" id="modal__Bootstrap__theming">
+        <div class="modal__dialog modal__dialog--blog--img"><img class="modal__img" src="imgs/blog/color-theming-v5.png"
+            alt=""></div>
+      </div>
+    </div><!-- /.Modal -->
 
 
 
-          <form class="form" action="mail.php" method="POST" id="ajax-contact-form">
-            <div class="form__group">
-              <label for="input_email" class="form__label">Adress e-mail</label>
-              <input type="text" name="input_email" class="form__input" placeholder="Adress e-mail" id="input_email"
-                required>
+    <div class="modal blog__template" id="modal__HTML5_CSS3">
+      <div class="modal__dialog modal__dialog--blog">
+        <button type="button" class="modal__close" data-close="">
+          <img src="imgs/close.svg" alt="close">
+        </button>
+        <div class="modal__content">
+
+          <section>
+            <div>
+              <p>
+                <h1 class="text__center fontSize2rem">Що нового в HTML5 та CSS3</h1>
+              </p>
+
+              <p>Як відомо, найпростіший код для веб-сайтів генерується мовою гіпертекстової розмітки <b>HTML (HyperText
+                  Markup Language)</b>. Це інструмент дозволяє структурувати різні блоки на сторінці і розміщувати
+                тексти, малюнки, таблиці, списки і т. д. HTML не використовує логічних функцій, зате дозволяє
+                <i>формувати і викладати на веб-сторінках інформацію</i>. Саме з HTML працюють браузери, які підтримують
+                стандартні команди (теги і атрибути) цієї мови, і виводять їх користувачеві в певному вигляді.</p>
+              <p>HTML містить сотні так званих тегів або дескрипторів. Кожен тег використовує певні правила і має
+                властивості, якими визначається його відображення на сторінці.</p>
+              <p>На практиці, при створенні веб-ресурсів за допомогою HTML, розробник знайомий з елементами мови
+                гіпертекстової розмітки і прописує всі потрібні блоки.</p>
+              <p><b>HTML – це база</b>, на якій побудований весь Інтернет. Всі інші інструменти є надбудовами і
+                дозволяють додавати більше складний функціонал.</p>
+              <p><img class="img__blog" src="imgs/blog/HTML__CSS/HTML5-CSS3.jpg" width="649" height="433"
+                  style="display: block; margin-left: auto; margin-right: auto;"></p>
+              <h2>Що таке HTML5</h2>
+              <p>HTML5 – сучасна версія мови гіпертекстової розмітки, яка отримала ряд доповнень та нових можливостей.
+                До складу робочої групи її розробників входять представники таких гігантів IT-сфери, як <b>Google,
+                  Apple, IBM, Microsoft</b> та інші.</p>
+              <p>Багато експертів вважають HTML5 не продовженням розвитку мови HTML, а новою відкритою програмною
+                платформою, яка застосовується для створення веб-інтерфейсів, що використовують текстові та
+                мультимедійні інструменти (відеоролики, графіка, аудіозаписи та інші елементи). При цьому у п'ятій
+                версії <i>зберігається зворотна сумісність і читабельність коду для користувачів</i>.</p>
+              <h2>Що таке CSS</h2>
+              <p>Хорошим доповненням для HTML стали <b>CSS (Cascading Style Sheets)</b> – каскадні таблиці стилів, які
+                містять опис особливостей зовнішнього вигляду веб-документа, створеного на основі інструментів
+                гіпертекстової розмітки. В основному CSS використовується для візуального оформлення веб-сторінок.
+                Тобто, HTML задає структуру ресурсу, а таблиці стилів визначають те, як він буде виглядати.</p>
+              <p>Саме <i>CSS відповідають за привабливість і дизайн сторінок</i>. Ця технологія дозволяє «навести
+                красу». Вже судячи з назви, вона працює зі стилями (кольорами, шрифтами, формами і т. д.)</p>
+              <p>CSS може застосовуватися не тільки в мовах розмітки HTML та XHTML, але і працювати в XML-форматі
+                (включаючи документи SVG і HUL).</p>
+              <p>CSS3 – третя версія таблиці каскадних стилів, яка значно розширила можливості попередніх поколінь.
+                Особливість CSS3 полягає в тому, що з її допомогою можна створювати анімовані елементи без допомоги
+                JS<b>.</b> Вона включає підтримку різних градієнтів і тіней, використовує нові форми згладжування і т.
+                д.</p>
+              <h2>Що дає зв'язка HTML5+CSS3</h2>
+              <p>Використання набору технологій HTML5 + CSS3 відкриває розробникам величезний арсенал програмних
+                засобів, з якими значно легше стало створювати зручні, стильні, сучасні і функціональні веб-ресурси.</p>
+              <p>Якщо для розробки використовувалися ці засоби, то вони прискорять завантаження сторінок і привнесуть
+                ряд привабливих новацій. CSS3 дозволить створити унікальний <a href="uk/design.html">дизайн сайту</a>,
+                завдяки використанню великої кількості візуальних ефектів. А головне ви зможете обійтися без
+                використання мови <a href="uk/blog/tehnology/javascript.html">Javascript</a>.</p>
+              <h2>Основні переваги і недоліки HTML5 і CSS3</h2>
+              <hr>
+              <table border="0" class="technology_table">
+                <tbody>
+                  <tr>
+                    <td><img class="img__blog" src="imgs/blog/HTML__CSS/html5-logo.png" width="255" height="359"
+                        alt="Розробка сайтів використовуючи HTML5 та CSS3 Вебдрімлаб"></td>
+                    <td>
+                      <h4>Переваги:</h4>
+                      <ul>
+                        <li>
+                          <ul>
+                            <li>Були додані нові теги і атрибути, які дозволяють значно простіше розробляти і просувати
+                              сайти;</li>
+                            <li>Додані теги структурування, які допомагають розділяти сторінки на зручні для роботи
+                              блоки <strong>(header, footer, section, nav, article, aside, figure)</strong>;</li>
+                            <li>Прискорене завантаження сторінок сайту;</li>
+                            <li>Немає необхідності підключати сторонні розширення до веб-браузеру для відтворення аудіо
+                              і відео доріжок, досить використовувати призначені для цього теги.</li>
+                          </ul>
+                          <p>В HTML5 практично немає ніяких недоліків.</p>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="img__blog" src="imgs/blog/HTML__CSS/css3-logo-.png" width="255" height="358"
+                        alt="css3-logo"></td>
+                    <td>
+                      <h4>Переваги:</h4>
+                      <p>Додано безліч нових змінних, завдяки яким розширюється арсенал візуальних складових сайту.</p>
+                      <ul>
+                        <li><strong>background</strong> (доступна можливість одночасного використання фонового кольору і
+                          зображення);</li>
+                        <li><strong>box-shadow</strong> (додавання тіней до блоків);</li>
+                        <li><strong>text-shadow</strong> (додавання тіней до тексту);</li>
+                        <li><strong>opacity</strong> (прозорість різних елементів);</li>
+                        <li><strong>gradient</strong> (градієнти);</li>
+                        <li><strong>border-radius</strong> (округлення кутів блоків);</li>
+                        <li><strong>transition</strong> (зміна властивостей);</li>
+                        <li><strong>transition-delay</strong> (час затримки зміни властивості);</li>
+                      </ul>
+                      <p>Недоліки: деякі властивості не підтримуються старими версіями браузерів</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
+          </section>
 
-            <div class="form__group">
-              <label for="input_email" class="form__label">Request</label>
-              <textarea name="input_text" class="form__textarea" placeholder="Type your request..." id="input_text"
-                required></textarea>
+        </div><!-- /.modal__content -->
+      </div><!-- /.modal__dialog -->
+    </div><!-- /.Modal -->
+
+    <div class="modal blog__template" id="modal__INNOVATION__JAVASCRIPT__ES2020">
+      <div class="modal__dialog modal__dialog--blog">
+        <button type="button" class="modal__close" data-close="">
+          <img src="imgs/close.svg" alt="close">
+        </button>
+        <div class="modal__content">
+
+          <section>
+            <h1 class="text__center fontSize2rem">Нововведення JavaScript ES2020</h1>
+            <div class="post__text post__text-html post__text_v1" id="post-content-body"
+              data-io-article-url="https://habr.com/ru/company/plarium/blog/485362/">Представляю вам переклад <a class="linkInText"
+                href="https://medium.com/better-programming/javascript-es2020-features-with-simple-examples-d301dbef2c37">статті</a>
+              із блогу <a class="linkInText" href="https://medium.com/@ccaballero">Carlos Caballero</a> на сайті Medium.com.
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/oq/ud/i6/oqudi6ojwarhvslnzzufisc-7ti.jpeg"><a
+                name="habracut"></a><br>
+              <i>Фото <a class="linkInText"
+                  href="https://unsplash.com/@freegraphictoday?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AbsolutVision</a>
+                с <a class="linkInText"
+                  href="https://unsplash.com/s/photos/news?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></i><br>
+              <br>
+              <h3>Введення</h3><br>
+              ES2020 — ця версія ECMAScript, актуальна для 2020 року. У ній не так багато нововведень в порівнянні з
+              ES6, що вийшла в 2015 році, але кілька корисних функцій все ж є.<br>
+              <br>
+              У цій статті нові фічі ES2020 описуються на простих прикладах коду. Ви зможете швидко зрозуміти їх без
+              будь-яких складних роз'яснень.<br>
+              <br>
+              Звичайно, щоб повністю розібратися в представлених прикладах, потрібно володіти базовими знаннями
+              JavaScript.<br>
+              <br>
+              Нововведення JavaScript в ES2020:<br>
+              <br>
+              <ul>
+                <li>метод String.prototype.matchAll;</li>
+                <li>динамічний import();</li>
+                <li>тип BigInt;</li>
+                <li>метод Promise.allSettled;</li>
+                <li>об'єкт globalThis;</li>
+                <li>механізм виконання циклу for-in;</li>
+                <li>оператор Optional Chaining;</li>
+                <li>оператор Nullish Coalescing.</li>
+              </ul><br>
+              <h3>Метод String.protype.matchAll</h3><br>
+              При зіставленні рядків з регулярним виразом метод <code> matchAll () </code> повертає ітератор по всім
+              результатами, включаючи групи захоплення.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/bh/ua/rs/bhuarsow0w775nzudi1cxvdrvym.png"><br>
+              <br>
+              <h3>Динамічний import()</h3><br>
+              Динамічний <code>import()</code> повертає промис для об'єкта простору імен запитуваного модуля.
+              Отже, тепер обсяги імпорту можна привласнювати змінній, використовуючи синтаксис
+              <code>async/await</code>.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/yf/fr/dw/yffrdwvzr_f2p7tj3enupyvfffg.png"><br>
+              <br>
+              <h3>BigInt — целі числа довільної довжини</h3><br>
+              BigInt — це сьомий примітивний тип, ціле число довільної довжини. Тепер змінні даного типу можуть
+              складатися з <code> 253 </code> числових знаків, вони не обмежені числовим значенням
+              <code>9007199254740992</code>.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/ik/x_/jm/ikx_jmrwnnzqlsrutvm4wv8l2tc.png"><br>
+              <br>
+              <h3>Метод Promise.allSettled</h3><br>
+              Метод <code>Promise.allSettled</code> повертає промис з масивом станів Проміс, але тільки після
+              того, як всі вихідні Проміс були завершені. Ми говоримо, що промис завершений, якщо він не знаходиться в
+              очікуванні, тобто виконано, або відхилений.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/kl/8u/so/kl8usoeitjhim_ey2bw8gmp8ude.png"><br>
+              <br>
+              <h3>Стандартизований об'єкт globalThis</h3><br>
+              Об'єкт globalThis не був стандартизований до появи ES10. У готовому коді його доводилося приводити до
+              стандарту для різних платформ самостійно, прописуючи щось громіздке, як в прикладі нижче.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/lc/rx/js/lcrxjsblinlb-2epczkbwsnhtsk.png"><br>
+              <br>
+              <h3>Механізм виконання циклу for-in</h3><br>
+              Стандарт ECMA-262 залишає порядок обробки конструкції <code> for (a in b) </code> майже повністю
+              невизначеним, але реальні двигуни все ж намагаються бути послідовними в деяких випадках.<br>
+              <br>
+              Неодноразові спроби досягти згоди у визначенні точного порядку циклу for-in провалювалися. Частково
+              це пояснюється тим, що всі движки мають своє специфічне застосування, що є результатом великої
+              роботи, яку зовсім не хотілося переглядати.<br>
+              <br>
+              В результаті розробники різних движків дійшли згоди щодо того, як має відбуватися
+              ітеруваня за властивостями в конструкції <code> for (a in b) </code>, щоб її поведінка могла бути
+              стандартизовано.<br>
+              <br>
+              <h3>Оператор Nullish Coalescing</h3><br>
+              Зазвичай при зверненні до властивості бажано надавати значення за замовчуванням, якщо результат цього
+              звернення - null або undefined. Зараз типовим способом вираження такого наміру в
+              <code>JavaScript</code> є використання оператора <code>||</code>.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/cq/jy/4g/cqjy4guxjvkpq_gpm_qpmgxav-8.png"><br>
+              <br>
+              Цей метод добре працює для звичайних значень null або undefined, але існує ряд неправдивих значень,
+              які можуть давати несподівані результати.<br>
+              <br>
+              Оператор Nullish Coalescing (оператор об'єднання з невизначеним значенням) призначений для більш
+              успішної обробки таких випадків і використовується з метою перевірки рівності з нульовими значеннями (null
+              або undefined). Якщо вираз в лівій частині оператора <code>??</code> оцінюється як undefined або null,
+              його правая частина повертається в якості результату.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/et/fw/hl/etfwhlbmvnw9de1kmrumby5xp88.png"><br>
+              <br>
+              <h3>Оператор Optional Chaining</h3><br>
+              При зверненні до властивості, розташованому глибоко в структурі дерева, найчастіше доводиться додавати
+              перевірки на існування проміжних вузлів.<br>
+              <br>
+              Оператор Optional Chaining (оператор опціональних ланцюжків) дозволяє розробникам обробляти багато
+              подібних випадків без повторів та / або присвоєння проміжних результатів тимчасовим змінним.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/m8/zo/wm/m8zowm_gbi3nbnxbeurdczqqclc.png"><br>
+              <br>
+              Також варто відзначити, що багато API повертають або <code>object</code>, або <code>null/undefined</code>,
+              а вам може знадобитися витягти властивість з результату тільки тоді, коли вона не є null.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/42/qw/hl/42qwhl2ubkuod1ud52ewz5fin5y.png"><br>
+              <br>
+              Оператор об'єднання з невизначеним значенням часто застосовується в випадках, коли відсутність результату
+              не
+              має виражатися значенням<i>undefined</i>.<br>
+              <br>
+              <img class="img__blog" src="https://habrastorage.org/webt/hg/gq/gd/hggqgdjts8yqty4ieuzg9zup5so.png"><br>
+              <br>
+              <h3>Висновок</h3><br>
+              JavaScript - жива мова, і це дуже благотворно впливає на веб-розробку. Ми спостерігаємо його динамічний
+              розвиток з моменту появи ES6 в 2015 році, а в цій статті висвітлюємо можливості версії ES2020. <br>
+              <br>
+              Ймовірно, не всі ці нововведення виявляться потрібними для створення вашого веб-додатки. Але всі вони
+              дозволяють обійтися без хитромудрих прийомів або написання великої кількості коду там, де це було потрібно
+              раніше.
             </div>
+          </section>
 
-            <div class="text__right">
-              <button class="btn" type="submit">SEND</button>
-            </div>
-          </form>
+        </div><!-- /.modal__content -->
+      </div><!-- /.modal__dialog -->
+    </div><!-- /.Modal -->
+  </div> <!-- /.modal_container -->
 
 
 
-        </div><!-- /.contact__left -->
-        <div class="contact__right">
-          <img class="contact__photo" src="imgs/man-in-black-suit-smiling-3778673.jpg" alt="">
-        </div>
-      </div><!-- /.contact -->
-
-    </div><!-- /.modal__dialog -->
-  </div><!-- /.Modal -->
 
   <!-- jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
