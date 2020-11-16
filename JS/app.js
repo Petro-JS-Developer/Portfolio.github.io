@@ -63,6 +63,8 @@ $(function () {
 
     let cat = $(this).data("filter");
 
+console.log(cat);
+
     if (cat == "all") {
       $("[data-cat]").removeClass("hide");
     } else {
@@ -273,23 +275,23 @@ let worksArrForUKR = [
 </div>
 </div>`,
 
-  `<div class="portfolio__col" data-cat="website">
-<div class="work">
-  <img class="work__img" src="https://via.placeholder.com/370x300?text=to+be+continued..." alt="">
+  `<div class="portfolio__col" data-cat="app">
+<div class="work" data-modal="#modal__project__4">
+  <img class="work__img" src="imgs/P4/2048.jpg" alt="">
   <div class="work__content">
-    <div class="work_cat">Категорія: Вебсайт</div>
-    <div class="work_title">Заголовок проекту
-      <time datetime="2020-07-06 19.00" class="work_date">2020</time>
+    <div class="work_cat">Категорія: Додаток</div>
+    <div class="work_title">2048
+      <time datetime="2020-08-09 19.00" class="work_date">2020</time>
     </div>
   </div>
 </div>
 </div>`,
 
-  `<div class="portfolio__col" data-cat="app">
+  `<div class="portfolio__col" data-cat="website">
 <div class="work">
   <img class="work__img" src="https://via.placeholder.com/370x300?text=to+be+continued..." alt="">
   <div class="work__content">
-    <div class="work_cat">Категорія: додаток</div>
+    <div class="work_cat">Категорія: Вебсайт</div>
     <div class="work_title">Заголовок проекту
       <time datetime="2020-07-06 19.00" class="work_date">2020</time>
     </div>
@@ -347,23 +349,23 @@ let worksArrForEN = [
     </div>
   </div>`,
 
+  `<div class="portfolio__col" data-cat="app">
+<div class="work" data-modal="#modal__project__4">
+  <img class="work__img" src="imgs/P4/2048.jpg" alt="">
+  <div class="work__content">
+    <div class="work_cat">CATEGORY: App</div>
+    <div class="work_title">2048
+      <time datetime="2020-08-09 19.00" class="work_date">2020</time>
+    </div>
+  </div>
+</div>
+</div>`,
+
   `<div class="portfolio__col" data-cat="website">
     <div class="work">
       <img class="work__img" src="https://via.placeholder.com/370x300?text=to+be+continued..." alt="">
       <div class="work__content">
         <div class="work_cat">CATEGORY: Website</div>
-        <div class="work_title">PROJECT TITLE
-          <time datetime="2020-07-06 19.00" class="work_date">2020</time>
-        </div>
-      </div>
-    </div>
-  </div>`,
-
-  `<div class="portfolio__col" data-cat="app">
-    <div class="work">
-      <img class="work__img" src="https://via.placeholder.com/370x300?text=to+be+continued..." alt="">
-      <div class="work__content">
-        <div class="work_cat">CATEGORY: app</div>
         <div class="work_title">PROJECT TITLE
           <time datetime="2020-07-06 19.00" class="work_date">2020</time>
         </div>
@@ -394,7 +396,7 @@ let addNewWork;
 createWorks(0, 6);
 
 function createWorks(startElement, endElement) {
-  if ( window.location.href === 'http://localhost:3000/page_en.html') {
+  if ( window.location.href === 'https://petro-js-developer.github.io/portfolio.github.io/page_en.html') {
     addNewWork = worksArrForEN.slice(startElement, endElement);
   } else {
     addNewWork = worksArrForUKR.slice(startElement, endElement);
@@ -636,7 +638,7 @@ let addNewArticle;
 createArticle(0, 3);
 
 function createArticle(startElement, endElement) {
-  if ( window.location.href === 'http://localhost:3000/page_en.html') {
+  if ( window.location.href === 'https://petro-js-developer.github.io/portfolio.github.io/page_en.html') {
     addNewArticle = blocBlogEN.slice(startElement, endElement);
   } else {
     addNewArticle = blocBlogUKR.slice(startElement, endElement);
