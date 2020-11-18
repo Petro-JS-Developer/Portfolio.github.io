@@ -265,7 +265,7 @@ let worksArrForUKR = [
 
   `<div class="portfolio__col" data-cat="website">
 <div class="work" data-modal="#modal__project__3">
-  <img class="work__img" src="imgs/P3/Previu_img.jpg" alt="">
+  <img class="work__img" src="imgs/P3/PreviousPortfolio.jpeg" alt="">
   <div class="work__content">
     <div class="work_cat">Категорія: Вебсайт</div>
     <div class="work_title">My Portfolio
@@ -339,7 +339,7 @@ let worksArrForEN = [
 
   `<div class="portfolio__col" data-cat="website">
     <div class="work" data-modal="#modal__project__3">
-      <img class="work__img" src="imgs/P3/Previu_img.jpg" alt="">
+      <img class="work__img" src="imgs/P3/PreviousPortfolio.jpeg" alt="">
       <div class="work__content">
         <div class="work_cat">CATEGORY: Website</div>
         <div class="work_title">My Portfolio
