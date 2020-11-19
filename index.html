@@ -252,14 +252,18 @@
         <div class="footer__credits">
           <div class="footer__copiright">&copy 2020 all rights reserved</div>
           <div class="footer__social">
-            <a href="https://www.linkedin.com/in/petro-mandzyuk-78890a147/" target="_blank">
+            <a class="social__link" href="https://www.linkedin.com/in/peter-mandzyuk-78890a147/" target="_blank">
               <img width="18" src="imgs/linkedin-gray.svg" alt="">
             </a>
-            <a href="https://www.facebook.com/petro33339" target="_blank">
+            <a class="social__link" href="https://www.facebook.com/petro33339" target="_blank">
               <img height="21" src="imgs/fb-gray.svg" alt="">
             </a>
             <a class="social__link" target="_blank" href="https://github.com/Petro-JS-Developer"><img width="18"
                 src="imgs/github-image-gray.svg" alt="" target="_blank"></a>
+            <a class="social__link" target="_blank" href="tel:+380981234567"><img width="18"
+              src="imgs/phone__gray.svg" alt="" target="_blank"></a>
+            <a class="social__link" target="_blank" href="mailto:petrom333@gmail.com"><img width="18"
+              src="imgs/message__gray.svg" alt="" target="_blank"></a>
           </div>
         </div><!-- /.footer__credits -->
 
@@ -637,7 +641,7 @@
     </div>
 
     <div class="modal" id="modal__resume">
-      <div class="modal__dialog print modal__dialog--resume">
+      <div class="modal__dialog  modal__dialog--resume">
         <button type="button" class="modal__close" data-close="">
           <img src="imgs/close.svg" alt="close">
         </button>
@@ -646,238 +650,155 @@
           <h3 class="modal__title text__center">Резюме</h3>
           <div class="text__center">
             <a class="btn btn--thin" href="Files/_CV Mandzyuk Peter.pdf" download>Завантажити
-              повне резюме</a>
-            <button class="btn btn--thin" href="" onclick="printEl()">Друкувати</button>
+              резюме</a>
+            <button class="btn btn--thin" id="print">Друкувати</button>
           </div>
 
-          <div class="timeline">
+          <div class="timeline print">
             <div class="timeline__col timeline__col--left">
-              <h4 class="timeline__title">Навчання</h4>
-              <div class="timeline__item">
-                <time class="timeline__date" datetime="11-21-219">2013-2016</time>
-                <h5 class="timeline__supTitle">Механік інженер</h5>
-                <div class="timeline__position">НУБІП</div>
+              <div class="timeline__item--bc_black">
+                <h1 class="timeline__title--firstTitle text__white">Мандзюк <br> Петро</h1>
+                <h3 class="timeline__supTitle--firstSupTitle text__white">FRONT END <br> DEVELOPER</h3>
               </div>
 
-              <h4 class="timeline__title">Додаткова освіта</h4>
               <div class="timeline__item">
-                <time class="timeline__date" datetime="11-21-219">2020 - <b>Дотепер</b></time>
-                <h5 class="timeline__supTitle">Frontend Developer</h5>
-                <div class="timeline__position">Mate academy</div>
+                <h2 class="timeline__title">Кортко про себе</h2>
+                <div class="timeline__text">
+                  <p>Я професійний веб-розробник з 10-місячним досвідом у веб-розробці та розробці мобільних додатків. Крім того, я маю великий досвід у побудові та автоматизації бізнес-процесів, налаштуванні та аналізі рекламних каналів, створенні високо конверсійних сайтів завдяки своєму попередньому досвіду в Інтернет-маркетингу</p>
+                  <p>Я багато працював із CRM та його конфігурацією, налаштовуючи бізнес-процеси та інтегруючи з іншими інструментами. Досвідчений у створенні автоматизованих воронок збуту. Будь ласка, перегляньте моє портфоліо за адресою <a class="styleLink" href="https://petro-js-developer.github.io/portfolio.github.io/">посилання</a></p>
+                </div>
               </div>
               <div class="timeline__item">
-                <time class="timeline__date" datetime="11-21-219">2020</time>
-                <h5 class="timeline__supTitle">Frontend Developer</h5>
-                <div class="timeline__position">Html academy</div>
-              </div>
-
-
-              <h4 class="timeline__title">Навики</h4>
-              <div class="progress__bar">
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">HTML</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 93%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">CSS</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 91%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">Photoshop</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 75%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">Adobe XD</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 58%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">Figma</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 47%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">PHP</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 37%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">JS</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 80%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">jQuery</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 68%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">AJAX</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 30%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">Less</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 70%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">Bootstrap</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 75%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">React</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 88%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">Redux</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 85%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">Gulp</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 48%;"></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="progress__bar__item">
-                  <div class="progress__bar__left">
-                    <div class="progress__bar__title">GIT</div>
-                  </div>
-                  <div class="progress__bar__right">
-                    <div class="progress__bar__bar">
-                      <div class="progress__bar__progress" style="width: 92%;"></div>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- /.progress__bar -->
-            </div> <!-- timeline -->
-
-
-
-            <div class="timeline__col timeline__col--right">
-              <h4 class="timeline__title">Досвід</h4>
-
-              <div class="timeline__item">
-                <time class="timeline__date" datetime="11-21-219">2020 - <b>Дотепер</b></time>
-                <h5 class="timeline__supTitle">Front-End Developer</h5>
-                <div class="timeline__position">Training Projects</div>
+                <h2 class="timeline__title">Навички</h2>
                 <div class="timeline__text">
                   <p>
                     <ul>
-                      <li class="text__left">Розробка веб-додатків</li>
-                      <li class="text__left">Створення цільових сторінок</li>
-                      <li class="text__left">Проста розробка ігор</li>
+                      <li class="text__left">HTML5/CSS3, CSS preprocessors;</li>
+                      <li class="text__left">Bootstrap;</li>
+                      <li class="text__left">BEM methodology;</li>
+                      <li class="text__left">JavaScript, jQuery;</li>
+                      <li class="text__left">React, Redux;</li>
+                      <li class="text__left">JSON, AJAX;</li>
+                      <li class="text__left">Git, Gulp, Npm;</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="timeline__item">
+                <h2 class="timeline__title">Особисті навички</h2>
+                <div class="timeline__text">
+                  <p>
+                    <ul>
+                      <li class="text__left">Ініціативний;</li>
+                      <li class="text__left">Організований;</li>
+                      <li class="text__left">Командний гравець;</li>
+                      <li class="text__left">Швидко вчуся;</li>
                     </ul>
                   </p>
                 </div>
               </div>
 
               <div class="timeline__item">
-                <time class="timeline__date" datetime="11-21-219">2018 - 2020</time>
-                <h5 class="timeline__supTitle">Галантпол Електра</h5>
-                <div class="timeline__position">Інтернет маркетолог</div>
+                <h2 class="timeline__title">Працюй зі мною !</h2>
+                <div class="timeline__text">
+                  + 380 98-526-62-51, <br>
+                  <a class="styleLink" href="mailto:petrom333@gmail.com">petrom333@gmail.com</a>, <br>
+                  LinkedIn: <a class="styleLink" href="https://www.linkedin.com/in/peter-mandzyuk-78890a147/">Peter Mandzyuk</a>, <br>
+                  Кyiv, Ukraine.
+                </div>
+              </div>
+            </div> <!-- timeline -->
+
+
+
+            <div class="timeline__col timeline__col--right">
+
+              <h4 class="timeline__title">Досвід</h4>
+
+              <div class="timeline__item">
+                <h5 class="timeline__supTitle">Front-End Developer</h5>
+                <div class="timeline__position">Training Projects | Бер. 2020 - дотепер</div>
                 <div class="timeline__text">
                   <p>
-                    Досягнення:
                     <ul>
-                      <li class="text__left">Рекламна стратегія Digital напрямку;</li>
-                      <li class="text__left">Аналітика ефективності каналів;</li>
-                      <li class="text__left">Успішний email marketing;</li>
-                      <li class="text__left">Розробка порталу для B2B клієнтів;</li>
-                      <li class="text__left">Впровадження CRM (B24) у компанії з налаштуванням бізнес-процесів та
-                        інтеграцією з 1С, поштою та IP-телефонією;</li>
-                      <li class="text__left">Автоматизація різних бізнес-процесів всередині компанії з використанням 1С
-                        та
-                        CRM системи.</li>
+                      <li class="text__left">Розробка веб-додатків;</li>
+                      <li class="text__left">Створення односторінкових сайтів;</li>
+                      <li class="text__left">Розробка простих ігор.</li>
+                    </ul>
+                    Подивіться мої проекти на моєму <a class="styleLink" href="https://github.com/Petro-JS-Developer">Github</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline__item">
+                <h5 class="timeline__supTitle">Інтернет маркетолог</h5>
+                <div class="timeline__position">GALANTPOL | 2018-2020</div>
+                <div class="timeline__text">
+                  <p>
+                    <ul>
+                      <li class="text__left">Розробка рекламної стратегії для цифрового напрямку;</li>
+                      <li class="text__left">Аналіз ефективності каналів;</li>
+                      <li class="text__left">Ефективний e-mail маркетинг;</li>
+                      <li class="text__left">Розробка бізнес-порталу для клієнтів B2B;</li>
+                      <li class="text__left">Введення CRM (B24) у компанію з налаштуванням бізнес-процесів та інтеграцією з 1С, поштою та IP-телефонією;</li>
+                      <li class="text__left">Автоматизація різних бізнес-процесів всередині компанії з використанням 1С та CRM системи.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+
+              <h4 class="timeline__title">Навчання</h4>
+
+              <div class="timeline__item">
+                <h5 class="timeline__supTitle">НУБІП Університет</h5>
+                <div class="timeline__text">
+                  <p>
+                    Механіко-технологічний факультет 2016 р., Магістр.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline__item">
+                <h5 class="timeline__supTitle">Курси: Mate academy</h5>
+                <div class="timeline__text">
+                  <p>
+                    <ul>
+                      <li class="text__left">Javascript Advanced;</li>
+                      <li class="text__left">TypeScript;</li>
+                      <li class="text__left">React;</li>
+                      <li class="text__left">Redux;</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="timeline__item">
+                <h5 class="timeline__supTitle">Самоосвіта: Html academy</h5>
+                <div class="timeline__text">
+                  <p>
+                    <ul>
+                      <li class="text__left">HTML/CSS;</li>
+                      <li class="text__left">Advanced HTML/CSS;</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline__item">
+                <h5 class="timeline__supTitle">АЛГОРИТМІЧНІ ЗАВДАННЯ</h5>
+                <div class="timeline__text">
+                  <p>
+                    Codewars (JavaScript / TypeScript / React) 4-го рівня, 19,8% (краще, ніж 80% решти користувачів) 223 вирішені завдання.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline__item">
+                <h5 class="timeline__supTitle">Інше</h5>
+                <div class="timeline__text">
+                  <p>
+                    <ul>
+                      <li class="text__left">Книга - Ілля Кантор "JavaScript мова";</li>
+                      <li class="text__left">YouTube канал - "Гоша Дударь";</li>
+                      <li class="text__left">Додаток -"SoloLearn";</li>
                     </ul>
                   </p>
                 </div>

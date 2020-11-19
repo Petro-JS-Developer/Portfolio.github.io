@@ -2,20 +2,20 @@
   display: flex;
   margin: 4.2rem auto;
   width: 100%;
-  max-width: 758px;
+  max-width: 1100px;
   position: relative;
-  &:before {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 100%;
+  // &:before {
+  //   content: "";
+  //   display: block;
+  //   width: 1px;
+  //   height: 100%;
 
-    background-color: @black;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    z-index: 1;
-  }
+  //   background-color: @black;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 50%;
+  //   z-index: 1;
+  // }
   @media @mobile {
     flex-wrap: wrap;
     margin: 3rem auto;
@@ -28,7 +28,7 @@
 .timeline__col {
   width: 50%;
   &--left {
-    text-align: right;
+    // text-align: right;
     padding-right: 3.2rem;
   }
 
@@ -42,7 +42,7 @@
       text-align: center;
       padding-right: 0rem;
     }
-  
+
     &--right {
       width: 100%;
       text-align: center;
@@ -52,13 +52,20 @@
 }
 
 .timeline__title {
-  margin-bottom: 2.6rem;
+  margin-bottom: 2rem;
 
   font-size: 1.2rem;
   color: @black;
   font-weight: 700;
   text-transform: uppercase;
-  @media @mobile { 
+  &--firstTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 3.3rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  @media @mobile {
     margin: 2.6rem;
 
     font-size: 2rem;
@@ -67,6 +74,22 @@
 
 .timeline__item {
   margin-bottom: 2.6rem;
+
+  &--bc_black{
+    // text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 10rem;
+    padding-left: 3rem;
+    background-color: black;
+    max-width: 440px;
+    min-height: 472px;
+    @media @mobile { 
+      min-width: 243px;
+      min-height: 272px;
+      padding-top: 7rem;
+      padding-left: 1.5rem;
+        }
+  }
 
   &:last-child {
     margin-bottom: 0;
@@ -87,6 +110,10 @@
   font-size: 1.2rem;
   color: @black;
   font-weight: 700;
+  &--firstSupTitle{
+    font-weight: 400;
+    text-align: left;
+  }
 }
 
 .timeline__position {
@@ -104,5 +131,35 @@
   line-height: 1.5;
 }
 
+// .blackBlockWithTitle {
+//   margin-bottom: 2rem;
+
+//   min-width: 320px;
+//   min-height: 472px;
+//   background-color: black;
+//   padding-top: 10rem;
+//   padding-left: 30px;
+//   margin-bottom: 30px;
+//   font-size: 1.2rem;
+//   color: @white;
+//   font-weight: 700;
+//   text-transform: uppercase;
+
+//   &--title {
+
+//   }
+//   &--supTitle {
+//     margin-bottom: 0.2rem;
+
+//     font-size: 1.2rem;
+//     color: @black;
+//     font-weight: 700;
+//   }
+//   @media @mobile { 
+//     margin: 2.6rem;
+
+//     font-size: 2rem;
+//   }
+// }
 // ul li {list-style: none; text-align: right;}
 // ul li:after {content: "\25CF"; padding: 5px;}

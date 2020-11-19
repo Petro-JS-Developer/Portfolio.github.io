@@ -212,13 +212,13 @@ console.log(cat);
 
 
   /* Send message */
-  function printEl() {
-    var body = $('body').html(),
+  document.getElementById('print').addEventListener('click', () => {
+    let body = $('body').html(),
       el = $('.print');
     $('body').html(el);
     window.print()
     $('body').html(body);
-  }
+  })
 
   /* Language */
   $("[data-click]").on("click", function () {
